@@ -8,23 +8,24 @@
 body {
     background-color: black;
     font-family: sans-serif;
+    background-image: linear-gradient(to right,black,rgba(34, 34, 34, 0.562));
 }
 
 img {
     border-radius: 50%;
-    width: 360px;
-    height: 360px;
+    width: 320px;
+    height: 320px;
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 31px;
     margin-bottom: 8px;
 
 }
 
 p {
-   color: white;
+    color: rgb(146, 146, 146);
 }
 
 ul {
@@ -34,6 +35,7 @@ ul {
 li {
     margin-bottom: 18px;
     list-style: none;
+
 }
 
 a {
@@ -43,15 +45,18 @@ a {
     text-decoration: none;
     display: block;
     border-radius: 5px;
+    font-size: 100%;
 }
 
 a:hover {
-    background-color: white;
-    color: #cdd832;
+    background-color: #8f9717;
+    color: rgb(0, 0, 0);
+    font-size: 105%;
 }
 
 footer {
-    color: white;
+    color: rgb(146, 146, 146);
+    font-size: 80%;
 }
 
 .container {
